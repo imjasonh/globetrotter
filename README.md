@@ -26,7 +26,9 @@
 
 The board is a [snub dodecahedron](https://en.wikipedia.org/wiki/Snub_dodecahedron), with 12 pentagonal spaces and 80 equilateral triangle spaces, and 150 edges.
 
-The bottom pentagon and its surrounding 14 triangles are not used, and cannot be moved or shot thorough. Their borders with other spaces are counted as Fortifications
+The bottom pentagon and its surrounding 14 triangles are not used, and cannot be moved or shot thorough. Their borders with other spaces are counted as Fortifications.
+
+Ideally the spaces and edges would have magnets to firmly attach pieces even upside down, and the globe would spin to let players see all sides. I need to model this better. Maybe its a whiteboard surface and folks just draw Fortification edges?
 
 Players start by rolling off to go first, and place their rover in an empty HQ space.
 
