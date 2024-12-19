@@ -11,6 +11,7 @@
   - HQs count as 2 spaces for determining shooting range
   - Fortifications are always hit (don't roll)
 - **Build** - if all edges of an HQ are Fortified by you, you can build a structure
+  - you can only have one of each structure
   - **Medic** - if a Rover is adjacent to a Medic HQ, they can Heal 1 HP for one action
   - **Space Port** - moving into a Space Port HQ puts the Rover into orbit
     - a Rover in orbit can descend into any unoccupied space on this board not bordering an enemy Fortification, or any unoccupied space next to the Space Port.
@@ -24,6 +25,8 @@
 The board is a [snub dodecahedron](https://en.wikipedia.org/wiki/Snub_dodecahedron), with 12 pentagonal spaces and 80 equilateral triangle spaces, and 150 edges.
 
 The bottom pentagon and its surrounding 14 triangles are not used, and cannot be moved or shot thorough. Their borders with other spaces are counted as Fortifications
+
+Players start by rolling off to go first, and place their rover in an empty HQ space.
 
 ## Taking Hits
 
