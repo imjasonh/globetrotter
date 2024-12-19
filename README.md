@@ -4,6 +4,7 @@
   - after moving into the new space, update your facing toward either of the edges in the new space that's closest to your facing in the previous space
   - you can't move into a space that's occupied by another Rover or Building, enemy or friendly
   - you can't move over enemy Fortifications
+  - A move can be up to two triangles, or one pentagon.
 - **Turn** - turn your Rover left or right to point to an adjacent facing edge
 - **Fortify** - a Rover may place a Fortification on any adjacent edge.
 - **Shoot** - identify an enemy Rover or Fortification or HQ Building within 3 spaces, roll 3+ on a D6 to hit, and 3+ to inflict damage
@@ -13,6 +14,7 @@
 - **Build** - if all edges of an HQ are Fortified by you, you can build a structure
   - you can only have one of each structure
   - if a Rover occupied the space, it gets one free move out before building.
+  - structures can only be built on pentagons
   - **Medic** - if a Rover is adjacent to a Medic HQ, they can Heal 1 HP for one action
   - **Space Port** - moving into a Space Port HQ puts the Rover into orbit. Remove it from the board.
     - a Rover in orbit can descend into any unoccupied space on this board not bordering an enemy Fortification, or any unoccupied space next to the Space Port.
@@ -20,6 +22,7 @@
   - **Factory** - each turn, a Factory can produce a new Rover for one action.
   - **Drill Cannon** - a Drill Cannon HQ must power up for 3 actions (they may be non-consecutive actions), then can fire on any enemy Rover or Fortification on the board, and automatically hitting.
     - each time the Drill Cannon fires, it must power up for 3 actions before it can fire again.
+    - The actions are prep, aim, and fire. The `aim` action defines a location on the board.
 - **Destroy** - return an HQ building to an empty Fortified HQ space
 
 ## The Board
@@ -37,3 +40,6 @@ Players start by rolling off to go first, and place their rover in an empty HQ s
 Rovers and HQ Buildings start with 5 hit points. Each time an enemy hits and wounds, remove a hit point. At zero hit points, it is destroyed.
 
 Fortifications have 1 hit point, the first time they are wounded they are destroyed
+
+## Turns
+In a 2 player game, each player has 5 actions, in a 3-4 player game, each player has 3 actions.
