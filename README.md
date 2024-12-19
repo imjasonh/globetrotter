@@ -9,6 +9,7 @@
 - **Shoot** - identify an enemy Rover or Fortification or HQ Building within 3 spaces, roll 3+ on a D6 to hit, and 3+ to inflict damage
   - HQs count as 2 spaces for determining shooting range
   - Fortifications are always hit (don't roll)
+  - if shooting through an enemy Fortification, you need a 4+ to hit enemy Rovers
 - **Build** - if all edges of an HQ are Fortified by you, you can build a structure
   - you can only have one of each structure
   - if a Rover occupied the space, it gets one free move out before building.
