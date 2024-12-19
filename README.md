@@ -14,7 +14,7 @@
   - you can only have one of each structure
   - if a Rover occupied the space, it gets one free move out before building.
   - **Medic** - if a Rover is adjacent to a Medic HQ, they can Heal 1 HP for one action
-  - **Space Port** - moving into a Space Port HQ puts the Rover into orbit
+  - **Space Port** - moving into a Space Port HQ puts the Rover into orbit. Remove it from the board.
     - a Rover in orbit can descend into any unoccupied space on this board not bordering an enemy Fortification, or any unoccupied space next to the Space Port.
     - in multi-planetary games, Rovers in orbit can also descend into other planets.
   - **Factory** - each turn, a Factory can produce a new Rover for one action.
