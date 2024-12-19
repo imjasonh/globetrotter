@@ -34,6 +34,6 @@ Players start by rolling off to go first, and place their rover in an empty HQ s
 
 ## Taking Hits
 
-Rovers and HQ Buildings start with 5 hit points. Each time an enemy hits and wounds, remove a hit point. At zero hit points, the it is destroyed
+Rovers and HQ Buildings start with 5 hit points. Each time an enemy hits and wounds, remove a hit point. At zero hit points, it is destroyed.
 
 Fortifications have 1 hit point, the first time they are wounded they are destroyed
