@@ -1,6 +1,6 @@
 ## Actions
 
-- **Move** - move one space ahead
+- **Move** - move your Rover one space ahead
   - update your facing to the edge in the new space that's closest to your facing in the previous space
   - if your previous facing points at a vertex in the new space (as when entering or leaving an HQ), you can pick which way to face
   - you can't move into a space that's occupied by another Rover, enemy or friendly
