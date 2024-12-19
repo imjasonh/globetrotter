@@ -1,8 +1,7 @@
 ## Actions
 
 - **Move** - move your Rover one space ahead
-  - update your facing toward either od the edges in the new space that's closest to your facing in the previous space
-  - if your previous facing points at a vertex in the new space (as when entering or leaving an HQ), you can pick which way to face
+  - after moving into the new space, update your facing toward either of the edges in the new space that's closest to your facing in the previous space
   - you can't move into a space that's occupied by another Rover or Building, enemy or friendly
   - you can't move over enemy Fortifications
 - **Turn** - turn your Rover left or right to point to an adjacent facing edge
