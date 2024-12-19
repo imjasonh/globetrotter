@@ -19,6 +19,7 @@
   - **Factory** - each turn, a Factory can produce a new Rover for one action.
   - **Drill Cannon** - a Drill Cannon HQ must power up for 3 actions (they may be non-consecutive actions), then can fire on any enemy Rover or Fortification on the board, and automatically hitting.
     - each time the Drill Cannon fires, it must power up for 3 actions before it can fire again.
+- **Destroy** - return an HQ building to an empty Fortified HQ space
 
 ## The Board
 
@@ -30,4 +31,6 @@ Players start by rolling off to go first, and place their rover in an empty HQ s
 
 ## Taking Hits
 
-Rovers and HQ Buildings start with 5 hit points. Each time an enemy hits and wounds, remove a hit point. At zero hit points, the Rover is destroyed
+Rovers and HQ Buildings start with 5 hit points. Each time an enemy hits and wounds, remove a hit point. At zero hit points, the it is destroyed
+
+Fortifications have 1 hit point, the first time they are wounded they are destroyed
