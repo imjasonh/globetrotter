@@ -13,11 +13,12 @@
 - **Build** - if all edges of an HQ are Fortified by you, you can build a structure
   - you can only have one of each structure
   - if a Rover occupied the space, it gets one free move out before building.
-  - **Medic** - if a Rover is adjacent to a Medic HQ, they can Heal 1 HP for one action
   - **Space Port** - moving into a Space Port HQ puts the Rover into orbit. Remove it from the board.
     - a Rover in orbit can descend into any unoccupied space on this board not bordering an enemy Fortification, or any unoccupied space next to the Space Port.
     - in multi-planetary games, Rovers in orbit can also descend into other planets.
-  - **Factory** - each turn, a Factory can produce a new Rover for one action.
+  - **Factory**
+    - a Factory can produce a new Rover in an adjacent space, for one action, or
+    - if a Rover is adjacent to a Medic HQ, it can Heal 1 HP for one action.
   - **Drill Cannon** - a Drill Cannon HQ must power up for 3 actions (they may be non-consecutive actions), then can fire on any enemy Rover or Fortification on the board, and automatically hitting.
     - each time the Drill Cannon fires, it must power up for 3 actions before it can fire again.
 - **Destroy** - return an HQ building to an empty Fortified HQ space
