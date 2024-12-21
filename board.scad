@@ -34,4 +34,5 @@ module snub_dodecahedron_with_holes() {
 }
 
 // Render the snub dodecahedron with the holes
-snub_dodecahedron_with_holes();
+scale([25.4, 25.4, 25.4]) // millimeters to inches -- this ensures 1" side lengths.
+    snub_dodecahedron_with_holes();
