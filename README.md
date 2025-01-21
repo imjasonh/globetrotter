@@ -28,9 +28,9 @@ Players take turns performing one action each. The actions they can take are:
   - if shooting through an enemy Fortification, you need a 4+ to hit enemy Rovers.
   - Rovers and Buildings start with 5 hit points. Each time they're damaged they lose a hit point. When they reach zero hit points, they are destroyed.
   - Fortifications have 1 hit point, and are destroyed as soon as they take damage.
-- **Build** - if all spaces adjacent to an HQ are occupied by your Fortification or Rover by you, you can build a structure in that space.
+- **Build** - if all spaces adjacent to an pentagonal HQ space are occupied by a player's Fortifications or Rovers, you can build a structure in that space.
   - each player can only have one of each structure, even in multi-planetary games.
-  - if a Rover occupied the pentagon space, it gets one free move out in any direction before building.
+  - if a Rover occupied the pentagonal space, it gets one free move out in any direction before building.
   - **Space Port** - moving into a Space Port HQ puts the Rover into orbit. Remove the Rover from the board.
     - a Rover in orbit can descend into any unoccupied space on this board not bordering an enemy Fortification, or any unoccupied space next to the Space Port, facing any edge.
     - in multi-planetary games, Rovers in orbit can also descend onto other planets.
