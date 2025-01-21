@@ -1,35 +1,40 @@
 ## Actions
 
-- **Move** - move your Rover one space ahead
-  - after moving into the new space, update your facing toward either of the edges in the new space that's closest to your facing in the previous space
-  - you can't move into a space that's occupied by another Rover or Building, enemy or friendly
-  - you can't move over enemy Fortifications
+- **Move** - move your Rover one space ahead in the direction it's pointing.
+  - after moving into the new space, update its facing toward either of the edges in the new space that's closest to your facing in the previous space
+  - it can't move into a space that's occupied by another Rover or Building, enemy or friendly
+  - it can't move over enemy Fortifications
 - **Turn** - turn your Rover left or right to point to an adjacent facing edge
-- **Fortify** - a Rover may place a Fortification on any adjacent edge.
-- **Shoot** - identify an enemy Rover or Fortification or HQ Building within 3 spaces, roll 3+ on a D6 to hit, and 3+ to inflict damage
-  - HQs count as 2 spaces for determining shooting range
+- **Fortify** - a Rover may place a Fortification on any adjacent space.
+- **Shoot** - identify an enemy Rover or Fortification or Building within 3 spaces, roll 3+ on a D6 to hit, and 3+ to inflict damage
+  - HQ spaces (pentagons) count as 2 spaces for determining shooting range
   - Fortifications and Buildings are always hit (don't roll)
   - if shooting through an enemy Fortification, you need a 4+ to hit enemy Rovers
-- **Build** - if all edges of an HQ are Fortified by you, you can build a structure
+- **Build** - if all spaces adjacent to an HQ are occupied by your Fortification or Rover by you, you can build a structure in that space.
   - you can only have one of each structure
-  - if a Rover occupied the space, it gets one free move out before building.
-  - **Space Port** - moving into a Space Port HQ puts the Rover into orbit. Remove it from the board.
-    - a Rover in orbit can descend into any unoccupied space on this board not bordering an enemy Fortification, or any unoccupied space next to the Space Port.
-    - in multi-planetary games, Rovers in orbit can also descend into other planets.
+  - if a Rover occupied the pentagon space, it gets one free move out in any direction before building.
+  - **Space Port** - moving into a Space Port HQ puts the Rover into orbit. Remove the Rover from the board.
+    - a Rover in orbit can descend into any unoccupied space on this board not bordering an enemy Fortification, or any unoccupied space next to the Space Port, facing any edge.
+    - in multi-planetary games, Rovers in orbit can also descend onto other planets.
   - **Factory**
     - a Factory can produce a new Rover in an adjacent space, for one action, or
     - if a Rover is adjacent to a Factory, it can regain 1 hit point for one action, up to max 5.
-  - **Drill Cannon** - a Drill Cannon HQ must power up for 3 actions (they may be non-consecutive actions), then can fire on any enemy Rover or Fortification on the board, and automatically hitting.
-    - each time the Drill Cannon fires, it must power up for 3 actions before it can fire again.
-- **Destroy** - return an HQ building to an empty Fortified HQ space
+  - **Drill Cannon** - a Drill Cannon HQ must be readied and aimed before it can fire. Each of these takes one action:
+    - _Ready_: mark the Drill Cannon as ready.
+    - _Aim_: announce a space anywhere on the board that you are aiming at.
+    - _Fire_: the space where you are aiming is automatically hit.
+    - These actions don't have to be consecutive, and you can re-_Aim_ at another space after becoming _Ready_, before _Firing_.
+    - After _Firing_, the Drill Cannon must start over and become _Ready_ first.
+- **Destroy** - return an HQ building to an empty HQ space.
+    - surrounding Fortifications are not destroyed.
 
 ## The Board
 
-The board is a [snub dodecahedron](https://en.wikipedia.org/wiki/Snub_dodecahedron), with 12 pentagonal spaces and 80 equilateral triangle spaces, and 150 edges.
+The board is a [snub dodecahedron](https://en.wikipedia.org/wiki/Snub_dodecahedron), with 12 pentagonal spaces and 80 equilateral triangle spaces.
 
 The bottom pentagon and its surrounding 14 triangles are not used, and cannot be moved or shot thorough. Their borders with other spaces are counted as Fortifications that cannot be destroyed.
 
-Ideally the spaces and edges would have magnets to firmly attach pieces even upside down, and the globe would spin to let players see all sides. I need to model this better. Maybe its a whiteboard surface and folks just draw Fortification edges?
+The spaces should have magnets embedded to firmly attach pieces even upside down, and the globe should spin to let players see all sides.
 
 Players start by rolling off to go first, and place their rover in an empty HQ space.
 
