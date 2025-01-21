@@ -20,10 +20,12 @@ Players take turns performing one action each. The actions they can take are:
   - a Rover can't move into a space that's occupied by another Rover or Building, enemy or friendly.
   - a Rover can't move over enemy Fortifications, but it can share the space with a friendly Fortification.
 - **Fortify** - a Rover may place a Fortification on any adjacent space.
-- **Shoot** - identify an enemy Rover or Fortification or Building within 3 spaces, roll 3+ on a D6 to hit, and 3+ to inflict damage
+- **Shoot** - identify an enemy Rover or Fortification or Building within 3 spaces. Roll 3+ on a D6 to hit, and 3+ to inflict damage.
   - HQ spaces (pentagons) count as 2 spaces for determining shooting range
   - Fortifications and Buildings are always hit (don't roll)
-  - if shooting through an enemy Fortification, you need a 4+ to hit enemy Rovers
+  - if shooting through an enemy Fortification, you need a 4+ to hit enemy Rovers.
+  - Rovers and Buildings start with 5 hit points. Each time they're damaged they lose a hit point. When they reach zero hit points, they are destroyed.
+  - Fortifications have 1 hit point, and are destroyed as soon as they take damage.
 - **Build** - if all spaces adjacent to an HQ are occupied by your Fortification or Rover by you, you can build a structure in that space.
   - each player can only have one of each structure, even in multi-planetary games.
   - if a Rover occupied the pentagon space, it gets one free move out in any direction before building.
@@ -51,9 +53,3 @@ Players take turns performing one action each. The actions they can take are:
 If all of a player's Rovers are destroyed and they have no Factory to create a new one, that player loses.
 
 If all players lose all their Rovers and have no Factories on the same turn (e.g., a Drill Cannon explodes the planet) then all players lose.
-
-## Taking Hits
-
-Rovers and HQ Buildings start with 5 hit points. Each time an enemy hits and wounds, remove a hit point. At zero hit points, it is destroyed.
-
-Fortifications have 1 hit point, the first time they are wounded they are destroyed
