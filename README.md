@@ -1,11 +1,24 @@
+# Globetrotter
+
+Globetrotter is a three-dimensional strategy game for two or more players.
+
+## The Board
+
+The board is a [snub dodecahedron](https://en.wikipedia.org/wiki/Snub_dodecahedron), with 12 pentagonal spaces and 80 equilateral triangle spaces.
+
+The bottom pentagon and its surrounding 14 triangles are not used, and cannot be moved or shot thorough. Their borders with other spaces are counted as Fortifications that cannot be destroyed. This means that players only need to build 4 Fortifications around southern HQ spaces to be able to build a Building on those spaces.
+
+The playable board has 11 pentagonal spaces and 66 triangle spaces. The spaces should have magnets embedded to firmly attach pieces even upside down, and the globe should spin to let players see all sides.
+
+Players start by rolling off to go first, and place a single Rover in an empty HQ space.
+
 ## Actions
 
 Players take turns performing one action each. The actions they can take are:
 
 - **Move** - move your Rover to an adjacent space.
-  - after moving into the new space, update its facing toward either of the edges in the new space that's closest to your facing in the previous space
-  - it can't move into a space that's occupied by another Rover or Building, enemy or friendly.
-  - it can't move over enemy Fortifications, but it can share the space with a friendly Fortification.
+  - a Rover can't move into a space that's occupied by another Rover or Building, enemy or friendly.
+  - a Rover can't move over enemy Fortifications, but it can share the space with a friendly Fortification.
 - **Fortify** - a Rover may place a Fortification on any adjacent space.
 - **Shoot** - identify an enemy Rover or Fortification or Building within 3 spaces, roll 3+ on a D6 to hit, and 3+ to inflict damage
   - HQ spaces (pentagons) count as 2 spaces for determining shooting range
@@ -20,7 +33,7 @@ Players take turns performing one action each. The actions they can take are:
   - **Factory**
     - a Factory can produce a new Rover in an adjacent space, for one action, or
     - if a Rover is adjacent to a Factory, it can regain 1 hit point for one action, up to max 5.
-    - if a player has multiple Rovers, they must choose which Rover will perform the action on their turn. Having two Rovers doesn't let you perform one action for each of them on each turn.
+    - when a player has multiple Rovers, they must choose which Rover will perform the action on their turn. Having two Rovers doesn't let you perform one action for each of them on each turn.
   - **Drill Cannon** - a Drill Cannon HQ must be readied and aimed before it can fire. Each of these takes one action:
     - _Ready_: mark the Drill Cannon as ready.
     - _Aim_: announce a space anywhere on the board that you are aiming at.
@@ -35,19 +48,9 @@ Players take turns performing one action each. The actions they can take are:
 - **Destroy** - return an HQ building to an empty HQ space.
     - surrounding Fortifications are not destroyed.
  
-If all of a players Rovers are destroyed and they have no Factory to create a new one, that player loses.
+If all of a player's Rovers are destroyed and they have no Factory to create a new one, that player loses.
 
 If all players lose all their Rovers and have no Factories on the same turn (e.g., a Drill Cannon explodes the planet) then all players lose.
-
-## The Board
-
-The board is a [snub dodecahedron](https://en.wikipedia.org/wiki/Snub_dodecahedron), with 12 pentagonal spaces and 80 equilateral triangle spaces.
-
-The bottom pentagon and its surrounding 14 triangles are not used, and cannot be moved or shot thorough. Their borders with other spaces are counted as Fortifications that cannot be destroyed. This means that players only need to build 4 Fortifications around southern HQ spaces to be able to build a Building on those spaces.
-
-The spaces should have magnets embedded to firmly attach pieces even upside down, and the globe should spin to let players see all sides.
-
-Players start by rolling off to go first, and place their rover in an empty HQ space.
 
 ## Taking Hits
 
