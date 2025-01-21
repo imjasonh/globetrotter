@@ -10,6 +10,8 @@ The bottom pentagon and its surrounding 14 triangles are not used, and cannot be
 
 The playable board has 11 pentagonal spaces and 66 triangle spaces. The spaces should have magnets embedded to firmly attach pieces even upside down, and the globe should spin to let players see all sides.
 
+The 11 pentagonal spaces are called HQ spaces.
+
 Players start by rolling off to go first, and place a single Rover in an empty HQ space.
 
 ## Actions
@@ -22,7 +24,7 @@ Players take turns performing one action each. The actions they can take are:
 - **Fortify** - a Rover may place a Fortification on any adjacent space.
 - **Shoot** - identify an enemy Rover or Fortification or Building within 3 spaces. Roll 3+ on a D6 to hit, and 3+ to inflict damage.
   - HQ spaces (pentagons) count as 2 spaces for determining shooting range
-  - Fortifications and Buildings are always hit (don't roll)
+  - Fortifications and Buildings are always hit, just roll to damage.
   - if shooting through an enemy Fortification, you need a 4+ to hit enemy Rovers.
   - Rovers and Buildings start with 5 hit points. Each time they're damaged they lose a hit point. When they reach zero hit points, they are destroyed.
   - Fortifications have 1 hit point, and are destroyed as soon as they take damage.
@@ -42,6 +44,7 @@ Players take turns performing one action each. The actions they can take are:
     - _Fire_: the space where you are aiming is automatically hit.
     - These actions don't have to be consecutive, and you can re-_Aim_ at another space after becoming _Ready_, before _Firing_.
     - After _Firing_, the Drill Cannon must start over and become _Ready_ first.
+    - If a Drill Cannon is destroyed while it is _Ready_ or _Aimed_, roll a D6. On a 3+ it explodes, and deals 1 damage point to every adjacent space.
     - Keep track of how many times a Drill Cannon has been fired on the planet. After _Firing_, roll two dice. If the total of those two dice is less than the number of times the Drill Cannon has fired, the planet is destroyed, along with all Rovers and Buildings on the planet.
   - **Treasury** - when a player has a Treasury, they can choose to save an action point, and use it later.
     - The Treasury can store up to 3 action points.
