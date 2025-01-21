@@ -32,8 +32,9 @@ Players take turns performing one action each. The actions they can take are:
   - each player can only have one of each structure, even in multi-planetary games.
   - if a Rover occupied the pentagonal space, it gets one free move out in any direction before building.
   - **Space Port** - moving into a Space Port HQ puts the Rover into orbit. Remove the Rover from the board.
-    - a Rover in orbit can descend into any unoccupied space on this board not bordering an enemy Fortification, or any unoccupied space next to the Space Port, facing any edge.
+    - a Rover in orbit can descend into any unoccupied space on this board.
     - in multi-planetary games, Rovers in orbit can also descend onto other planets.
+    - Rovers can remain in orbit indefinitely, but they cannot take any other action except to land.
   - **Factory**
     - a Factory can produce a new Rover in an adjacent space, for one action, or
     - if a Rover is adjacent to a Factory, it can regain 1 hit point for one action, up to max 5.
