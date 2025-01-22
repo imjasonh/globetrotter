@@ -36,9 +36,10 @@ Players take turns performing one action each. The actions they can take are:
     - in multi-planetary games, Rovers in orbit can also descend onto other planets.
     - Rovers can remain in orbit indefinitely, but they cannot take any other action except to land.
   - **Factory**
-    - a Factory can produce a new Rover in an adjacent space, for one action, or
+    - for one action, add a build point to the Factory. When 5 build points are amassed, the Factory can produce a new Rover in any adjacent space for one action. Reset the Factory's build points to zero.
     - if a Rover is adjacent to a Factory, it can regain 1 hit point for one action, up to max 5.
     - when a player has multiple Rovers, they must choose which Rover will perform the action on their turn. Having two Rovers doesn't let you perform one action for each of them on each turn.
+    - a player can only have as many Rovers as they have Buildings. In the case where a Building has been destroyed, they may only produce a new Rover if it would not lead to having more Rovers than Buildings.
   - **Drill Cannon** - a Drill Cannon HQ must be readied and aimed before it can fire. Each of these takes one action:
     - _Ready_: mark the Drill Cannon as ready.
     - _Aim_: announce a space anywhere on the board that you are aiming at.
