@@ -2,17 +2,17 @@
 
 Globetrotter is a three-dimensional strategy game for two or more players.
 
+The goal of the game is for players to explore, conquer and defend a planet, primarily using their Rover piece, which players take turns moving and performing actions.
+
 ## The Board
 
-The board is a [snub dodecahedron](https://en.wikipedia.org/wiki/Snub_dodecahedron), with 12 pentagonal spaces and 80 equilateral triangle spaces.
+The board is a [snub dodecahedron](https://en.wikipedia.org/wiki/Snub_dodecahedron), with 12 pentagonal spaces and 80 equilateral triangle spaces. The bottom pentagon and its surrounding 14 triangles are not used, so the playable board has 11 pentagonal spaces and 66 triangle spaces. The 11 pentagonal spaces are called HQ spaces.
 
-The bottom pentagon and its surrounding 14 triangles are not used, and cannot be moved or shot thorough. Their borders with other spaces are counted as Fortifications that cannot be destroyed. This means that players only need to build 4 Fortifications around southern HQ spaces to be able to build a Building on those spaces.
+The spaces should have magnets embedded to firmly attach pieces even upside down, and the globe should spin to let players see all sides. 
 
-The playable board has 11 pentagonal spaces and 66 triangle spaces. The spaces should have magnets embedded to firmly attach pieces even upside down, and the globe should spin to let players see all sides.
+## Setup
 
-The 11 pentagonal spaces are called HQ spaces.
-
-Players start by rolling off to go first, and place a single Rover in an empty HQ space.
+Players start by rolling off to go first, and place a single Rover in an empty HQ space anywhere on the planet. Players roll off again to take the first turn.
 
 ## Actions
 
@@ -36,16 +36,16 @@ Players take turns performing one action each. The actions they can take are:
     - in multi-planetary games, Rovers in orbit can also descend onto other planets.
     - Rovers can remain in orbit indefinitely, but they cannot take any other action except to land.
   - **Factory**
-    - for one action, add a build point to the Factory. When 5 build points are amassed, the Factory can produce a new Rover in any adjacent space for one action. Reset the Factory's build points to zero.
-    - if a Rover is adjacent to a Factory, it can regain 1 hit point for one action, up to max 5.
+    - on your turn, add a build point to the Factory. When 5 build points are collected, the Factory can produce a new Rover in any adjacent space. Reset the Factory's build points to zero.
+    - if a Rover is adjacent to a Factory, it can regain 1 hit point, up to max 5.
     - when a player has multiple Rovers, they must choose which Rover will perform the action on their turn. Having two Rovers doesn't let you perform one action for each of them on each turn.
     - a player can only have as many Rovers as they have Buildings. In the case where a Building has been destroyed, they may only produce a new Rover if it would not lead to having more Rovers than Buildings.
-  - **Drill Cannon** - a Drill Cannon HQ must be readied and aimed before it can fire. Each of these takes one action:
+  - **Drill Cannon** - the Drill Cannon must be readied and then aimed before it can fire.
     - _Ready_: mark the Drill Cannon as ready.
     - _Aim_: announce a space anywhere on the board that you are aiming at.
-    - _Fire_: the space where you are aiming is automatically hit. Roll 3D6 and remove a hit point for each 3+.
-    - These actions don't have to be consecutive, and you can re-_Aim_ at another space after becoming _Ready_, before _Firing_.
-    - After _Firing_, the Drill Cannon must start over and become _Ready_ first.
+    - _Fire_: the space where you are aiming is automatically hit. Roll a D6, then roll that many D6es, and remove a hit point for each 3+.
+    - These actions don't have to be performed consecutively, and you can re-_Aim_ at another space after becoming _Ready_, before _Firing_.
+    - After _Firing_, the Drill Cannon must start over and become _Ready_ again.
     - If a Drill Cannon is destroyed while it is _Ready_ or _Aimed_, roll a D6. On a 3+ it explodes, and deals 1 damage point to every adjacent space.
     - Keep track of how many times a Drill Cannon has been fired on the planet. After _Firing_, roll two dice. If the total of those two dice is less than the number of times the Drill Cannon has fired, the planet is destroyed, along with all Rovers and Buildings on the planet.
   - **Treasury** - when a player has a Treasury, they can choose to save an action point, and use it later.
