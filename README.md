@@ -21,11 +21,11 @@ Players take turns performing one action each. The actions they can take are:
 - **Move** - move your Rover to an adjacent space.
   - a Rover can't move into a space that's occupied by another Rover or Building, enemy or friendly.
   - a Rover can't move over enemy Fortifications, but it can share the space with a friendly Fortification.
-- **Fortify** - a Rover may place a Fortification on any adjacent space.
+- **Fortify** - a Fortification may be placed in any unoccupied space adjacent to a friendly Rover or Building.
 - **Shoot** - identify an enemy Rover or Fortification or Building within 3 spaces. Roll 3+ on a D6 to hit, and 3+ to inflict damage.
   - HQ spaces (pentagons) count as 2 spaces for determining shooting range
   - Fortifications and Buildings are always hit, just roll to damage.
-  - if shooting through an enemy Fortification, you need a 4+ to hit enemy Rovers.
+  - if shooting passes through an enemy's Fortification, you need a 4+ to hit enemy Rovers.
   - Rovers and Buildings start with 5 hit points. Each time they're damaged they lose a hit point. When they reach zero hit points, they are destroyed.
   - Fortifications have 1 hit point, and are destroyed as soon as they take damage.
 - **Build** - if all spaces adjacent to an pentagonal HQ space are occupied by a player's Fortifications or Rovers, you can build a structure in that space.
