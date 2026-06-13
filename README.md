@@ -38,11 +38,11 @@ Players take turns performing one action each. The actions they can take are:
     - In multi-planetary games, Rovers in orbit can Move from the orbit of one planet to being in orbit of an adjacent planet, then descend to that planet in a following turn.
     - Rovers can remain in orbit indefinitely, but they cannot take any other action except to land.
   - **Factory**
-    - On your turn, add a build point to the Factory. This does not take an action point; it automatically gains build points each turn. The Factory can hold up to 5 build points.
-    - When 5 build points are collected, the Factory can produce a new Rover in any open adjacent space; this costs an action point. Reset the Factory's build points to zero.
-    - If a Rover is adjacent to a Factory, it can regain 1 hit point, up to max 5. This costs one action point.
+    - At the start of your turn, add a build point to the Factory. This does not take an action point; it automatically gains build points each turn. The Factory can hold up to 5 build points.
+    - **Manufacture Rover:** When 5 build points are collected, the Factory can produce a new Rover in any open adjacent space; this costs an action point. Reset the Factory's build points to zero. You can produce a Rover on the turn you gained yout fifth build point.
+    - **Repair:** If a Rover is adjacent to a Factory, it can regain 1 hit point, up to max 5. This costs one action point, and one Factory build point.
     - When a player has multiple Rovers, they must choose which Rover will perform the action on their turn. Having two Rovers doesn't let you perform one action for each of them on each turn.
-    - A player cannot have more Rovers than Buildings, except at the beginning of the game. In the case where a Building has been destroyed, they may only produce a new Rover if it would not lead to having more Rovers than Buildings.
+    - A player cannot produce a Rover if it would cause them to have more Rovers than Buildings.
   - **Drill Cannon** - the Drill Cannon must be readied and then aimed before it can fire.
     - _Ready_: mark the Drill Cannon as ready.
     - _Aim_: announce a space anywhere on the board that you are aiming at.
