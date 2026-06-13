@@ -21,7 +21,7 @@ Players take turns performing one action each. The actions they can take are:
 - **Move** - move your Rover to an adjacent open space.
   - a Rover can't move into a space that's occupied by another Rover or Building, enemy or friendly.
   - a Rover can't move over enemy Fortifications, but it can move into and share the space with a friendly Fortification.
-- **Fortify** - a Fortification may be placed in any unoccupied space adjacent to a friendly Rover or Building.
+- **Fortify** - a Fortification may be placed in any unoccupied space adjacent to a friendly Rover, that is not adjacent to an existing Fortification.
 - **Shoot**
   - identify an enemy Rover or Fortification or Building within 3 spaces. 
   - HQ spaces (pentagons) count as 2 spaces for determining shooting range.
@@ -33,8 +33,8 @@ Players take turns performing one action each. The actions they can take are:
   - Fortifications have 1 hit point, and are destroyed when they take any damage.
   - When shooting at a Rover sharing a space with a Fortification, you must declare whether you're shooting at the Rover or the Fortification. When targeting a Rover on a Fortification, missing the Rover does not hit the Fortification.
 - **Build** - if 3 or more spaces adjacent to an unoccupied pentagonal HQ space are occupied by the same player's Fortifications or Rovers, you can place a Building in that space.
+  - At least one of the adjacent spaces must be a friendly Rover, to oversee construction.
   - Each player can only have one of each type of Building, even in multi-planetary games.
-  - If a Rover occupied the pentagonal space, it gets one free move out in any direction before building. If it cannot move out, it is destroyed.
 - **Decommission** - remove a friendly Building or Fortification from the board.
   - Any Fortifications surrounding a Building are not removed.
   - When a Treasury or Factory is decomissioned, all of their saved points are lost.
@@ -44,10 +44,10 @@ Players take turns performing one action each. The actions they can take are:
 
 ### Space Port
 
-  - When a Rover is adjacent to a friendly Space Port, it can be moved into orbit. Remove the Rover from the board.
+  - When a Rover is adjacent to a friendly Space Port, it can Move into orbit. Remove the Rover from the board.
   - A Rover in orbit around a planet can Move to descend into any unoccupied space on the planet.
   - In multi-planetary games, Rovers in orbit can Move from the orbit of one planet to being in orbit of an adjacent planet, then descend to that planet in a subsequent turn.
-  - Rovers can remain in orbit indefinitely, but they cannot take any other action except to land.
+  - Rovers can remain in orbit indefinitely, but they cannot take any other action except to Move to descend.
   - There is no limit to the number of Rovers that can be in orbit at any given time.
 
 ### Factory
@@ -73,7 +73,7 @@ Players take turns performing one action each. The actions they can take are:
 
   - when a player has a Treasury, they can choose to save an action point, and use it later.
   - The Treasury can store up to 3 action points.
-  - For example, instead of moving or building, a player can save its action point in the Treasury. On the player's next turn, they can perform one extra action before the other player's turn. If a Treasury has 3 action points saved in it, the player could take up to 4 actions.
+  - For example, instead of moving or building, a player can save their action point in the Treasury. On the player's next turn, they can perform one extra action before the other player's turn. If a Treasury has the full 3 action points saved in it, the player could take up to 4 actions consecutively.
   - When a Treasury is destroyed, all of the action points it holds are _immediately_ available to the player that destroyed it; they cannot save them in their own Treasury, and must immediately use or forfeit them. This can never result in more than 4 actions being taken by the same player consecutively (e.g., if they used their own Treasury-banked actions to destroy an enemy Treasury); any excessive action points are forefeit.
 
 ## Ending the Game
