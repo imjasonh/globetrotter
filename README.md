@@ -22,7 +22,8 @@ Players take turns performing one action each. The actions they can take are:
   - a Rover can't move into a space that's occupied by another Rover or Building, enemy or friendly.
   - a Rover can't move over enemy Fortifications, but it can move into and share the space with a friendly Fortification.
 - **Fortify** - a Fortification may be placed in any unoccupied space adjacent to a friendly Rover or Building.
-- **Shoot** - identify an enemy Rover or Fortification or Building within 3 spaces. 
+- **Shoot**
+  - identify an enemy Rover or Fortification or Building within 3 spaces. 
   - HQ spaces (pentagons) count as 2 spaces for determining shooting range.
   - Line of sight is measured by the shortest path between spaces.
   - When targeting a Rover, roll 3+ on a D6 to hit, then roll 3+ to inflict damage.
@@ -31,35 +32,50 @@ Players take turns performing one action each. The actions they can take are:
   - Rovers and Buildings start with 5 hit points. Each time they're damaged they lose a hit point. When they reach zero hit points, they are destroyed.
   - Fortifications have 1 hit point, and are destroyed when they take any damage.
   - When shooting at a Rover sharing a space with a Fortification, you must declare whether you're shooting at the Rover or the Fortification. When targeting a Rover on a Fortification, missing the Rover does not hit the Fortification.
-- **Build** - if 3 or more spaces adjacent to an unoccupied pentagonal HQ space are occupied by the same player's Fortifications or Rovers, you can build a structure in that space.
-  - Each player can only have one of each structure, even in multi-planetary games.
+- **Build** - if 3 or more spaces adjacent to an unoccupied pentagonal HQ space are occupied by the same player's Fortifications or Rovers, you can place a Building in that space.
+  - Each player can only have one of each type of Building, even in multi-planetary games.
   - If a Rover occupied the pentagonal space, it gets one free move out in any direction before building. If it cannot move out, it is destroyed.
-  - **Space Port** - moving into a Space Port HQ puts the Rover into orbit. Remove the Rover from the board.
-    - A Rover in orbit around a planet can Move to descend into any unoccupied space on the planet.
-    - In multi-planetary games, Rovers in orbit can Move from the orbit of one planet to being in orbit of an adjacent planet, then descend to that planet in a following turn.
-    - Rovers can remain in orbit indefinitely, but they cannot take any other action except to land.
-  - **Factory**
-    - At the start of your turn, add a build point to the Factory. This does not take an action point; it automatically gains build points each turn. The Factory can hold up to 5 build points.
-    - **Manufacture Rover:** When 5 build points are collected, the Factory can produce a new Rover in any open adjacent space; this costs an action point. Reset the Factory's build points to zero. You can produce a Rover on the turn you gained your fifth build point.
-    - **Repair:** If a player's Rover is adjacent to their Factory, it can regain 1 hit point, up to max 5. This costs one action point, and one Factory build point.
-    - To clarify: When a player has multiple Rovers, they must choose which Rover will perform an action on their turn. Having multiple Rovers doesn't let you perform one action for each of them on each turn.
-    - A player cannot produce a Rover if it would cause them to have more Rovers than Buildings.
-  - **Drill Cannon** - the Drill Cannon must be readied and then aimed before it can fire.
-    - _Ready_: mark the Drill Cannon as ready.
-    - _Aim_: announce a space anywhere on the board that you are aiming at.
-    - _Fire_: the space where you are aiming is automatically hit. Roll a D6, then roll that many D6es, and remove a hit point for each 3+.
-    - These actions don't have to be performed consecutively, and you can re-_Aim_ at another space after becoming _Ready_, before _Firing_.
-    - After _Firing_, the Drill Cannon must start over and become _Ready_ again.
-    - If a Drill Cannon is destroyed while it is _Ready_ or _Aimed_, roll a D6. On a 3+ it explodes, and deals 1 damage point to every adjacent space.
-    - Keep track of how many times a Drill Cannon has been fired on the planet, by either player. After _Firing_, roll two dice. If the total of those two dice is less than the number of times a Drill Cannon has fired, the planet is destroyed, along with all Rovers and Buildings on the planet.
-  - **Treasury** - when a player has a Treasury, they can choose to save an action point, and use it later.
-    - The Treasury can store up to 3 action points.
-    - For example, instead of moving or building, a player can save its action point in the Treasury. On the player's next turn, they can perform one extra action before the other player's turn. If a Treasury has 3 action points saved in it, the player could take up to 4 actions.
-    - When a Treasury is destroyed, all of the action points it holds are _immediately_ available to the player that destroyed it; they cannot save them in their own Treasury, and must immediately use or forfeit them. This can never result in more than 4 actions being taken by the same player consecutively (e.g., if they used their own Treasury-banked actions to destroy an enemy Treasury); any excessive action points are forefeit.
-- **Decommission** - remove an HQ building or friendly Fortification from the board.
+- **Decommission** - remove a friendly Building or Fortification from the board.
   - Any Fortifications surrounding a Building are not removed.
   - When a Treasury or Factory is decomissioned, all of their saved points are lost.
-  - Decomissioning a Drill Cannon does not cause it to explode. Decomissioning a Drill Cannon does not affect the counter of times a Drill Cannon has been fired on the planet.
+  - Decomissioning a Drill Cannon does not cause it to explode as if it had been destroyed. Decomissioning a Drill Cannon does not affect the counter of times a Drill Cannon has been fired on the planet.
+
+## Buildings
+
+### Space Port
+
+  - moving into a Space Port HQ puts the Rover into orbit. Remove the Rover from the board.
+  - A Rover in orbit around a planet can Move to descend into any unoccupied space on the planet.
+  - In multi-planetary games, Rovers in orbit can Move from the orbit of one planet to being in orbit of an adjacent planet, then descend to that planet in a following turn.
+  - Rovers can remain in orbit indefinitely, but they cannot take any other action except to land.
+
+### Factory
+
+  - At the start of your turn, add a build point to the Factory. This does not take an action point; it automatically gains build points each turn. The Factory can hold up to 5 build points.
+  - **Manufacture Rover:** When 5 build points are collected, the Factory can produce a new Rover in any open adjacent space; this costs an action point. Reset the Factory's build points to zero. You can produce a Rover on the turn you gained your fifth build point.
+  - **Repair:** If a player's Rover is adjacent to their Factory, it can regain 1 hit point, up to max 5. This costs one action point, and one Factory build point.
+  - To clarify: When a player has multiple Rovers, they must choose which Rover will perform an action on their turn. Having multiple Rovers doesn't let you perform one action for each of them on each turn.
+  - A player cannot produce a Rover if it would cause them to have more Rovers than Buildings.
+
+### Drill Cannon
+
+  - the Drill Cannon must be readied and then aimed before it can fire.
+  - _Ready_: mark the Drill Cannon as ready.
+  - _Aim_: announce a space anywhere on the board that you are aiming at.
+  - _Fire_: the space where you are aiming is automatically hit. Roll a D6, then roll that many D6es, and remove a hit point for each 3+.
+  - These actions don't have to be performed consecutively, and you can re-_Aim_ at another space after becoming _Ready_, before _Firing_.
+  - After _Firing_, the Drill Cannon must start over and become _Ready_ again.
+  - If a Drill Cannon is destroyed while it is _Ready_ or _Aimed_, roll a D6. On a 3+ it explodes, and deals 1 damage point to every adjacent space.
+  - Keep track of how many times a Drill Cannon has been fired on the planet, by either player. After _Firing_, roll two dice. If the total of those two dice is less than the number of times a Drill Cannon has fired, the planet is destroyed, along with all Rovers and Buildings on the planet.
+
+### Treasury
+
+  - when a player has a Treasury, they can choose to save an action point, and use it later.
+  - The Treasury can store up to 3 action points.
+  - For example, instead of moving or building, a player can save its action point in the Treasury. On the player's next turn, they can perform one extra action before the other player's turn. If a Treasury has 3 action points saved in it, the player could take up to 4 actions.
+  - When a Treasury is destroyed, all of the action points it holds are _immediately_ available to the player that destroyed it; they cannot save them in their own Treasury, and must immediately use or forfeit them. This can never result in more than 4 actions being taken by the same player consecutively (e.g., if they used their own Treasury-banked actions to destroy an enemy Treasury); any excessive action points are forefeit.
+
+## Ending the Game
 
 If all of a player's Rovers are destroyed and they have no Factory to create a new one, that player loses.
 
