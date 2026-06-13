@@ -12,7 +12,7 @@ The spaces should have magnets embedded to firmly attach pieces even upside down
 
 ## Setup
 
-Players roll a D6. The higher roll chooses the place first or second. The first player places a single Rover in any empty HQ space anywhere on the planet, then the second player places. The second player to place takes the first turn.
+Players roll a D6. The higher roll chooses the place first or second. The first player places a single Factory in any empty HQ space anywhere on the planet, and a Rover in any adjacent space, then the second player places. The second player to place takes the first turn.
 
 ## Actions
 
@@ -29,7 +29,7 @@ Players take turns performing one action each. The actions they can take are:
   - When targeting a Rover, roll 3+ on a D6 to hit, then roll 3+ to inflict damage.
   - Fortifications and Buildings are automatically hit, roll 3+ to inflict damage.
   - If shooting passes through an enemy's Fortification, you need a 4+ to hit enemy Rovers, Fortifications or Buildings. This also applies if the target Rover shares its space with their Fortification.
-  - Rovers and Buildings start with 5 hit points. Each time they're damaged they lose a hit point. When they reach zero hit points, they are destroyed.
+  - Rovers start with 3 hit points, Buildings start with 5 hit points. Each time they're damaged they lose a hit point. When they reach zero hit points, they are destroyed.
   - Fortifications have 1 hit point, and are destroyed when they take any damage.
   - When shooting at a Rover sharing a space with a Fortification, you must declare whether you're shooting at the Rover or the Fortification. When targeting a Rover on a Fortification, missing the Rover does not hit the Fortification.
 - **Build** - if 3 or more spaces adjacent to an unoccupied pentagonal HQ space are occupied by the same player's Fortifications or Rovers, you can place a Building in that space.
@@ -39,6 +39,7 @@ Players take turns performing one action each. The actions they can take are:
   - Any Fortifications surrounding a Building are not removed.
   - When a Treasury or Factory is decomissioned, all of their saved points are lost.
   - Decomissioning a Drill Cannon does not cause it to explode as if it had been destroyed. Decomissioning a Drill Cannon does not affect the counter of times a Drill Cannon has been fired on the planet.
+- **Pass** - if you have no valid actions to play, you must Pass.
 
 ## Buildings
 
@@ -54,7 +55,7 @@ Players take turns performing one action each. The actions they can take are:
 
   - At the start of your turn, add a build point to the Factory. This does not take an action point; it automatically gains build points each turn. The Factory can hold up to 5 build points.
   - **Manufacture Rover:** When 5 build points are collected, the Factory can produce a new Rover in any open adjacent space; this costs an action point. Reset the Factory's build points to zero. You can produce a Rover on the turn you gained your fifth build point.
-  - **Repair:** If a player's Rover is adjacent to their Factory, it can regain 1 hit point, up to max 5. This costs one action point, and one Factory build point.
+  - **Repair:** If a player's Rover is adjacent to their Factory, it can regain 1 hit point, up to max 3. This costs one action point, and one Factory build point.
   - To clarify: When a player has multiple Rovers, they must choose which Rover will perform an action on their turn. Having multiple Rovers doesn't let you perform one action for each of them on each turn.
   - A player cannot produce a Rover if it would cause them to have more Rovers than Buildings.
 
