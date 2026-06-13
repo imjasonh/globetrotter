@@ -22,15 +22,16 @@ Players take turns performing one action each. The actions they can take are:
   - a Rover can't move into a space that's occupied by another Rover or Building, enemy or friendly.
   - a Rover can't move over enemy Fortifications, but it can share the space with a friendly Fortification.
 - **Fortify** - a Fortification may be placed in any unoccupied space adjacent to a friendly Rover or Building.
-- **Shoot** - identify an enemy Rover or Fortification or Building within 3 spaces. Roll 3+ on a D6 to hit, and 3+ to inflict damage.
-  - HQ spaces (pentagons) count as 2 spaces for determining shooting range
-  - Fortifications and Buildings are always hit, just roll to damage.
-  - if shooting passes through an enemy's Fortification, you need a 4+ to hit enemy Rovers.
+- **Shoot** - identify an enemy Rover or Fortification or Building within 3 spaces. 
+  - HQ spaces (pentagons) count as 2 spaces for determining shooting range.
+  - When targeting a Rover, roll 3+ on a D6 to hit, then roll 3+ to inflict damage.
+  - Fortifications and Buildings are automatically hit, roll 3+ to inflict damage.
+  - if shooting passes through an enemy's Fortification, you need a 4+ to hit enemy Rovers, Fortifications or Buildings.
   - Rovers and Buildings start with 5 hit points. Each time they're damaged they lose a hit point. When they reach zero hit points, they are destroyed.
-  - Fortifications have 1 hit point, and are destroyed as soon as they take damage.
-- **Build** - if all spaces adjacent to an pentagonal HQ space are occupied by a player's Fortifications or Rovers, you can build a structure in that space.
-  - each player can only have one of each structure, even in multi-planetary games.
-  - if a Rover occupied the pentagonal space, it gets one free move out in any direction before building.
+  - Fortifications have 1 hit point, and are destroyed when they take any damage.
+- **Build** - if 3 or more spaces adjacent to an pentagonal HQ space are occupied by the same player's Fortifications or Rovers, you can build a structure in that space.
+  - Each player can only have one of each structure, even in multi-planetary games.
+  - If a Rover occupied the pentagonal space, it gets one free move out in any direction before building. If it cannot move out, it is destroyed.
   - **Space Port** - moving into a Space Port HQ puts the Rover into orbit. Remove the Rover from the board.
     - a Rover in orbit can descend into any unoccupied space on this board.
     - in multi-planetary games, Rovers in orbit can also descend onto other planets.
@@ -47,14 +48,16 @@ Players take turns performing one action each. The actions they can take are:
     - These actions don't have to be performed consecutively, and you can re-_Aim_ at another space after becoming _Ready_, before _Firing_.
     - After _Firing_, the Drill Cannon must start over and become _Ready_ again.
     - If a Drill Cannon is destroyed while it is _Ready_ or _Aimed_, roll a D6. On a 3+ it explodes, and deals 1 damage point to every adjacent space.
-    - Keep track of how many times a Drill Cannon has been fired on the planet. After _Firing_, roll two dice. If the total of those two dice is less than the number of times the Drill Cannon has fired, the planet is destroyed, along with all Rovers and Buildings on the planet.
+    - Keep track of how many times a Drill Cannon has been fired on the planet, by either player. After _Firing_, roll two dice. If the total of those two dice is less than the number of times a Drill Cannon has fired, the planet is destroyed, along with all Rovers and Buildings on the planet.
   - **Treasury** - when a player has a Treasury, they can choose to save an action point, and use it later.
     - The Treasury can store up to 3 action points.
-    - For example, instead of moving or building, a Rover can save its action point in the Treasury. On the player's next turn, they can perform one extra action before the other player's turn. If a Bank has 3 action points saved in it, the player could take up to 4 actions.
+    - For example, instead of moving or building, a Rover can save its action point in the Treasury. On the player's next turn, they can perform one extra action before the other player's turn. If a Treasury has 3 action points saved in it, the player could take up to 4 actions.
     - When a Treasury is destroyed, all of the action points it holds are also lost.
-- **Destroy** - return an HQ building to an empty HQ space.
-    - surrounding Fortifications are not destroyed.
- 
+- **Decommission** - return an HQ building or friendly Fortification to an empty space.
+  - Any Fortifications surrounding a Building are not removed.
+  - When a Treasury or Factory is decomissioned, all of their saved points are lost.
+  - Decomissioning a Drill Cannon does not cause it to explode. Decomissioning a Drill Cannon does not affect the counter of times a Drill Cannon has been fired on the planet.
+
 If all of a player's Rovers are destroyed and they have no Factory to create a new one, that player loses.
 
-If all players lose all their Rovers and have no Factories on the same turn (e.g., a Drill Cannon explodes the planet) then all players lose.
+If all players lose all their Rovers and have no remaining Factories on the same turn (e.g., a Drill Cannon explodes the planet) then all players lose.
