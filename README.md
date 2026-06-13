@@ -44,10 +44,11 @@ Players take turns performing one action each. The actions they can take are:
 
 ### Space Port
 
-  - moving into a Space Port HQ puts the Rover into orbit. Remove the Rover from the board.
+  - When a Rover is adjacent to a friendly Space Port, it can be moved into orbit. Remove the Rover from the board.
   - A Rover in orbit around a planet can Move to descend into any unoccupied space on the planet.
-  - In multi-planetary games, Rovers in orbit can Move from the orbit of one planet to being in orbit of an adjacent planet, then descend to that planet in a following turn.
+  - In multi-planetary games, Rovers in orbit can Move from the orbit of one planet to being in orbit of an adjacent planet, then descend to that planet in a subsequent turn.
   - Rovers can remain in orbit indefinitely, but they cannot take any other action except to land.
+  - There is no limit to the number of Rovers that can be in orbit at any given time.
 
 ### Factory
 
