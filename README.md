@@ -8,7 +8,6 @@ The goal of the game is for players to explore, conquer and defend a planet, pri
 
 Each planet is a [snub dodecahedron](https://en.wikipedia.org/wiki/Snub_dodecahedron), with 12 pentagonal spaces and 80 equilateral triangle spaces. The bottom pentagon and its surrounding 14 triangles are not used, so the playable board has 11 pentagonal spaces and 66 triangle spaces. The 11 pentagonal spaces are called HQ spaces.
 
-
 The spaces should have magnets embedded to firmly attach pieces even upside down, and the globe should spin to let players see all sides.
 
 For the purposes of the rules below, two spaces are "adjacent" if they share an edge. To find the distance between to a target, count the spaces along the shortest chain of adjacent spaces, counting the target but not your own space. Each HQ pentagon counts as 2 spaces for the purposes of counting shooting distance. This _only_ affects shooting distance -- moving onto a pentagon is still one ordinary Move.
@@ -16,6 +15,8 @@ For the purposes of the rules below, two spaces are "adjacent" if they share an 
 ## Setup
 
 Players roll a D6. The higher roll chooses the place first or second. The first player places a single Factory in any empty HQ space anywhere on the planet, and a Rover in any adjacent space, then the second player places. The second player to place takes the first turn.
+
+For multi-player games, the player that rolls highest places a Factory and adjacent Rover, then players take turns counter-clockwise placing. The last player to place moves first, then play moves clockwise after that player.
 
 ## Actions
 
@@ -89,14 +90,14 @@ If a Drill Cannon destroys the last planet, all players lose.
 
 ## Multi-player and multi-planet games
 
-Two-player games can be played on up to two planets. Games with more than two players can have more planets:
+Multi-planet games are limited to games with 4+ players.
 
-| players | min planets | max planets |
-|-------|---|---|
-| 2 | 1 | 2 |
-| 3 | 2 | 3 |
-| 4 | 2 | 4 |
-| 5 | 3 | 5 |
-| 6 | 3 | 6 |
+| players | num planets |
+|-------|---|
+| 2 | 1 |
+| 3 | 1 |
+| 4 | 2 |
+| 5 | 2 |
+| 6 | 3 |
 
-Rovers in orbit can move to be in orbit around another planet; there is no concept of distance between planets.
+Rovers in orbit can Move to be in orbit above another planet; there is no concept of distance between planets.
