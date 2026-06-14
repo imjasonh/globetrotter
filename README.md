@@ -66,7 +66,7 @@ Players take turns performing one action each. The actions they can take are:
   - the Drill Cannon must be readied and then aimed before it can fire.
   - _Ready_: mark the Drill Cannon as ready.
   - _Aim_: announce a space anywhere on the board that you are aiming at.
-  - _Fire_: the space where you are aiming is takes D6 hits.
+  - _Fire_: the space where you are aiming is takes D6 automatic hits; immediately roll for damage.
   - These actions don't have to be performed consecutively, and you can re-_Aim_ at another space after becoming _Ready_, before _Firing_.
   - After _Firing_, the Drill Cannon must start over and become _Ready_ again.
   - If a Drill Cannon is destroyed while it is _Ready_ or _Aimed_, roll a D6. On a 3+ it explodes, and deals 1 damage point to every adjacent space.
