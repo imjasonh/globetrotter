@@ -4,9 +4,10 @@ Globetrotter is a three-dimensional strategy game for two or more players.
 
 The goal of the game is for players to explore, conquer and defend a planet, primarily using their Rover piece, which players take turns moving and performing actions.
 
-## The Board
+## Planet
 
-The board is a [snub dodecahedron](https://en.wikipedia.org/wiki/Snub_dodecahedron), with 12 pentagonal spaces and 80 equilateral triangle spaces. The bottom pentagon and its surrounding 14 triangles are not used, so the playable board has 11 pentagonal spaces and 66 triangle spaces. The 11 pentagonal spaces are called HQ spaces.
+Each planet is a [snub dodecahedron](https://en.wikipedia.org/wiki/Snub_dodecahedron), with 12 pentagonal spaces and 80 equilateral triangle spaces. The bottom pentagon and its surrounding 14 triangles are not used, so the playable board has 11 pentagonal spaces and 66 triangle spaces. The 11 pentagonal spaces are called HQ spaces.
+
 
 The spaces should have magnets embedded to firmly attach pieces even upside down, and the globe should spin to let players see all sides.
 
@@ -34,7 +35,7 @@ Players take turns performing one action each. The actions they can take are:
 
 - **Build** - if 3 or more spaces adjacent to an unoccupied pentagonal HQ space are occupied by the same player's Fortifications or Rovers, you can place a Building in that space.
   - At least one of the adjacent spaces must be a friendly Rover, to oversee construction.
-  - Each player can only have one of each type of Building, even in multi-planetary games.
+  - You can only have one of each type of building on each planet.
 
 - **Decommission** - remove a friendly Building or Fortification from the board.
   - Any Fortifications surrounding a Building are not removed.
@@ -65,12 +66,12 @@ Players take turns performing one action each. The actions they can take are:
 
   - the Drill Cannon must be readied and then aimed before it can fire.
   - _Ready_: mark the Drill Cannon as ready.
-  - _Aim_: announce a space anywhere on the board that you are aiming at.
+  - _Aim_: announce a space anywhere on the same planet that you are aiming at.
   - _Fire_: the space where you are aiming is takes D6 automatic hits; immediately roll for damage for that many hits, ignoring cover benefits.
   - These actions don't have to be performed consecutively, and you can re-_Aim_ at another space after becoming _Ready_, before _Firing_.
   - After _Firing_, the Drill Cannon must start over and become _Ready_ again.
   - If a Drill Cannon is destroyed while it is _Ready_ or _Aimed_, roll a D6. On a 3+ it explodes, and deals 1 damage point to every adjacent space.
-  - Keep track of how many times a Drill Cannon has been fired on the planet, by either player. After _Firing_, roll two dice. If the total of those two dice is less than the number of times a Drill Cannon has fired (including the firing that was just completed), the planet is destroyed, along with all Rovers and Buildings on the planet, and Rovers orbiting the planet. If this was the only/last planet, this means both players lose.
+  - Keep track of how many times a Drill Cannon has been fired on the planet, by either player. After _Firing_, roll two dice. If the total of those two dice is less than the number of times a Drill Cannon has fired (including the firing that was just completed), the planet is destroyed, along with all Rovers and Buildings on the planet, and Rovers orbiting the planet.
 
 ### Treasury
 
@@ -78,7 +79,24 @@ Players take turns performing one action each. The actions they can take are:
   - The Treasury can store up to 3 action points.
   - For example, instead of moving or building, a player can save their action point in the Treasury. On the player's next turn, they can perform one extra action before the other player's turn. If a Treasury has the full 3 action points saved in it, the player could take up to 4 actions consecutively.
   - When a Treasury is destroyed, all of the action points it holds are _immediately_ available to the player that destroyed it; they cannot save them in their own Treasury, and must immediately use or forfeit them. This can never result in more than 4 actions being taken by the same player consecutively (e.g., if they used their own Treasury-banked actions to destroy an enemy Treasury); any excessive action points are forefeit.
+  - A player can only have one Treasury, even in multi-planetary games.
 
 ## Ending the Game
 
-A player loses if they have no Rover on the board (not in orbit) and no Factory -- whether their Rovers were destroyed or are all in orbit.
+A player loses if they have no Rover on any planet (not in orbit) and no Factory -- whether their Rovers were destroyed or are all in orbit.
+
+If a Drill Cannon destroys the last planet, all players lose.
+
+## Multi-player and multi-planet games
+
+Two-player games can be played on up to two planets. Games with more than two players can have more planets:
+
+| players | min planets | max planets |
+|-------|---|---|
+| 2 | 1 | 2 |
+| 3 | 2 | 3 |
+| 4 | 2 | 4 |
+| 5 | 3 | 5 |
+| 6 | 3 | 6 |
+
+Rovers in orbit can move to be in orbit around another planet; there is no concept of distance between planets.
