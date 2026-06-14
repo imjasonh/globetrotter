@@ -70,7 +70,7 @@ Players take turns performing one action each. The actions they can take are:
   - These actions don't have to be performed consecutively, and you can re-_Aim_ at another space after becoming _Ready_, before _Firing_.
   - After _Firing_, the Drill Cannon must start over and become _Ready_ again.
   - If a Drill Cannon is destroyed while it is _Ready_ or _Aimed_, roll a D6. On a 3+ it explodes, and deals 1 damage point to every adjacent space.
-  - Keep track of how many times a Drill Cannon has been fired on the planet, by either player. After _Firing_, roll two dice. If the total of those two dice is less than the number of times a Drill Cannon has fired (including the firing that was just completed), the planet is destroyed, along with all Rovers and Buildings on the planet, and Rovers orbiting the planet.
+  - Keep track of how many times a Drill Cannon has been fired on the planet, by either player. After _Firing_, roll two dice. If the total of those two dice is less than the number of times a Drill Cannon has fired (including the firing that was just completed), the planet is destroyed, along with all Rovers and Buildings on the planet, and Rovers orbiting the planet. In single-planet games, this means both players lose.
 
 ### Treasury
 
@@ -81,6 +81,4 @@ Players take turns performing one action each. The actions they can take are:
 
 ## Ending the Game
 
-If all of a player's Rovers are destroyed and they have no Factory to create a new one, that player loses.
-
-If all players lose all their Rovers and have no remaining Factories on the same turn (e.g., a Drill Cannon explodes the planet) then all players lose.
+A player loses if they have no Rover on the board and no Factory -- whether their Rovers were destroyed or are all in orbit.
