@@ -66,11 +66,11 @@ Players take turns performing one action each. The actions they can take are:
   - the Drill Cannon must be readied and then aimed before it can fire.
   - _Ready_: mark the Drill Cannon as ready.
   - _Aim_: announce a space anywhere on the board that you are aiming at.
-  - _Fire_: the space where you are aiming is takes D6 automatic hits; immediately roll for damage.
+  - _Fire_: the space where you are aiming is takes D6 automatic hits; immediately roll for damage for that many hits, ignoring cover benefits.
   - These actions don't have to be performed consecutively, and you can re-_Aim_ at another space after becoming _Ready_, before _Firing_.
   - After _Firing_, the Drill Cannon must start over and become _Ready_ again.
   - If a Drill Cannon is destroyed while it is _Ready_ or _Aimed_, roll a D6. On a 3+ it explodes, and deals 1 damage point to every adjacent space.
-  - Keep track of how many times a Drill Cannon has been fired on the planet, by either player. After _Firing_, roll two dice. If the total of those two dice is less than the number of times a Drill Cannon has fired (including the firing that was just completed), the planet is destroyed, along with all Rovers and Buildings on the planet, and Rovers orbiting the planet. In single-planet games, this means both players lose.
+  - Keep track of how many times a Drill Cannon has been fired on the planet, by either player. After _Firing_, roll two dice. If the total of those two dice is less than the number of times a Drill Cannon has fired (including the firing that was just completed), the planet is destroyed, along with all Rovers and Buildings on the planet, and Rovers orbiting the planet. If this was the only/last planet, this means both players lose.
 
 ### Treasury
 
@@ -81,4 +81,4 @@ Players take turns performing one action each. The actions they can take are:
 
 ## Ending the Game
 
-A player loses if they have no Rover on the board and no Factory -- whether their Rovers were destroyed or are all in orbit.
+A player loses if they have no Rover on the board (not in orbit) and no Factory -- whether their Rovers were destroyed or are all in orbit.
